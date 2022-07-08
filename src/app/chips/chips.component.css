@@ -1,0 +1,49 @@
+.componentWrapper{
+text-align:center; 
+margin-bottom:3rem;
+}
+
+.wrapper{
+width:24.3%;
+min-height:12rem;
+display:inline;  
+float:left;
+padding:1rem;
+box-sizing: border-box; 
+}
+
+.innerWrapper{
+margin-top:.5rem;
+}
+
+.tmb{
+width:5rem;
+height:5rem;
+object-fit:cover;
+border:2px solid grey;
+}
+
+.infoText{
+font-size:14px;
+line-height:1.2;
+}
+
+/* styles for non-desktop landscape-oriented mobile views (ie: tablets, landscape smartphones */
+@media screen and (min-width: 758px) and (max-width: 992px) {
+ .wrapper{
+min-height:15rem;
+box-sizing: border-box; 
+}   
+}
+
+/* styles for portrait-oriented mobile views */
+@media screen and (max-width: 757px) {
+.wrapper{
+width:48%;
+min-height:14rem;
+display:inline;  
+float:left;
+padding:1rem;
+box-sizing: border-box; 
+}
+}

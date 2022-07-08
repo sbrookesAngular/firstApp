@@ -1,0 +1,37 @@
+.footerDiv33{
+    margin-top:-2px;
+width:33.333%;
+float:left;
+}
+
+.center-content{
+text-align:center;
+}
+
+#footerIconWrapper{
+padding:.5rem;
+float:left;
+}
+
+.footerIcon{
+width:2.5rem;
+margin-left:1rem;
+}
+
+#footerBannerWrapper{
+float:right;
+}
+
+#footerBanner{
+width:8rem;
+}
+
+/* styles for non-desktop landscape-oriented mobile views (ie: tablets, landscape smartphones */
+@media screen and (min-width: 758px) and (max-width: 992px) {
+    
+}
+
+/* styles for portrait-oriented mobile views */
+@media screen and (max-width: 757px) {
+
+}
